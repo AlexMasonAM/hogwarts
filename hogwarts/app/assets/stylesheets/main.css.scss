@@ -1,2 +1,12 @@
+// $grid-column 12
+// $grid
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.harry, .ron, .hermione {
+height: 100px;
+width: 100px;
+background-image: url(assets/HPCharacterSprite.jpg);
+background-position: fixed;
+}
